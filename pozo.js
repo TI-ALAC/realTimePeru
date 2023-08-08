@@ -9,6 +9,8 @@ var title = document.getElementById('title1');
 var Unidad = document.getElementById('pozoUnidad');
 
 const URL = window.location.href;
+console.log(URL.split("?province="))
+console.log(URL.split("?id="))
 const idPanel = 48
 const province = "Chiclayo"
 
@@ -17,7 +19,6 @@ const fecha = new Date();
 const dateEs = fecha.toLocaleTimeString('es-ES');
 const palabras = dateEs.split(":");
 console.log("dateEs", dateEs)
-console.log(URL.split("?province="))
 
 if (palabras[0] < 18) {
   document.getElementById("img-province-lluvia").src = "img/" + province + "/Dia/Lluvia.jpg"
