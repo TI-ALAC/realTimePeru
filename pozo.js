@@ -9,9 +9,13 @@ var title = document.getElementById('title1');
 var Unidad = document.getElementById('pozoUnidad');
 
 const URL = window.location.href;
-console.log(URL.split("/?"))
-const idPanel = 48
-const province = "Chiclayo"
+const split = URL.split("/?");
+const idPanelSplit = split[1].split("id=")
+const provinceSplit = split[2].split("province=")
+console.log(idPanelSplit)
+console.log(provinceSplit)
+const idPanel = idPanelSplit
+const province = provinceSplit
 
 
 const fecha = new Date();
