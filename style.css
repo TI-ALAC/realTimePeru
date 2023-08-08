@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Meera Inimai';
+    src: url(fonts/MeeraInimai-Regular.ttf);
+    font-weight: regular;
+}
+
+#contenido3 {
+    background-color: black;
+}
+
+#contenido4 {
+    background-color: black;
+}
+
+#contenido5 {
+    background-color: black;
+}
+
+#contenido6 {
+    background-color: black;
+}
+
+#contenido7 {
+    background-color: black;
+}
+
+img {
+    object-fit: fill;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#pozoUnidad {
+    font-size: 122pt;
+    font-family: 'Meera Inimai', sans-serif;
+    color: #FFF;
+    left: 32%;
+    top: 30%;
+    position: absolute;
+}
+
+#millones {
+    font-size: 122pt;
+    font-family: 'Meera Inimai', sans-serif;
+    color: #FFF;
+    left: 15%;
+    top: 30%;
+    position: absolute;
+}
+
+
+/* 800x420 */
+@media only screen and (max-width: 800px) {
+    .dat {
+
+        font-size: 48pt !important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFF;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 10;
+        left: 62%;
+        right: 2%;
+        top: 63%;
+
+    }
+
+    #millones {
+        font-size: 66pt !important;
+        font-family: 'Meera Inimai', sans-serif;
+        color: #FFF;
+        left: 78%;
+        top: 35%;
+        position: absolute;
+    }
+}
+
+/* 768x384 */
+@media only screen and (max-width: 768px) {
+    .dat {
+        font-size: 61pt !important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #c5161c;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 10;
+        left: 23%;
+        right: 2%;
+        top: 41%;
+    }
+
+    #millones {
+        font-size: 122pt;
+        font-family: 'Meera Inimai', sans-serif;
+        color: #FFF;
+        left: 15%;
+        top: 30%;
+        position: absolute;
+    }
+}
+
+/* 720x360 */
+@media only screen and (max-width: 720px) {
+    .dat {
+        font-size: 58pt !important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #c5161c;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 10;
+        left: 23%;
+        right: 2%;
+        top: 41%;
+    }
+
+    #millones {
+        font-size: 122pt;
+        font-family: 'Meera Inimai', sans-serif;
+        color: #FFF;
+        left: 15%;
+        top: 30%;
+        position: absolute;
+    }
+}
