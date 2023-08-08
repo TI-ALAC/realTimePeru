@@ -14,8 +14,8 @@ const URL = window.location.href;
 const split = URL.split("/?");
 const idPanelSplit = split[1].split("id=")
 const provinceSplit = split[2].split("province=")
-const idPanel = idPanelSplit
-const province = provinceSplit
+const idPanel = idPanelSplit[1]
+const province = provinceSplit[1]
 
 
 const fecha = new Date();
