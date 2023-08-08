@@ -14,8 +14,8 @@ const idPanelSplit = split[1].split("id=")
 const provinceSplit = split[2].split("province=")
 console.log(idPanelSplit)
 console.log(provinceSplit)
-const idPanel = idPanelSplit
-const province = provinceSplit
+const idPanel = idPanelSplit[1]
+const province = provinceSplit[1]
 
 
 const fecha = new Date();
