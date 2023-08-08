@@ -45,21 +45,25 @@ img {
     overflow: hidden;
 }
 
-#pozoUnidad {
-    font-size: 122pt;
-    font-family: 'Meera Inimai', sans-serif;
+.dat {
+    font-size: 48pt;
+    font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FFF;
-    left: 32%;
-    top: 30%;
+    width: 20px;
+    height: 20px;
     position: absolute;
+    z-index: 10;
+    left: 62%;
+    right: 2%;
+    top: 63%;
 }
 
 #millones {
-    font-size: 122pt;
+    font-size: 66pt;
     font-family: 'Meera Inimai', sans-serif;
     color: #FFF;
-    left: 15%;
-    top: 30%;
+    left: 78%;
+    top: 35%;
     position: absolute;
 }
 
@@ -67,7 +71,6 @@ img {
 /* 800x420 */
 @media only screen and (max-width: 800px) {
     .dat {
-
         font-size: 48pt !important;
         font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #FFF;
@@ -78,7 +81,6 @@ img {
         left: 62%;
         right: 2%;
         top: 63%;
-
     }
 
     #millones {
