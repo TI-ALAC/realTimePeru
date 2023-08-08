@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'Meera Inimai';
-    src: url(fonts/MeeraInimai-Regular.ttf);
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
     font-weight: regular;
 }
 
@@ -47,7 +47,7 @@ img {
 
 .dat {
     font-size: 48pt;
-    font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FFF;
     width: 20px;
     height: 20px;
@@ -60,7 +60,7 @@ img {
 
 #millones {
     font-size: 66pt;
-    font-family: 'Meera Inimai', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
     left: 78%;
     top: 35%;
@@ -72,7 +72,7 @@ img {
 @media only screen and (max-width: 800px) {
     .dat {
         font-size: 48pt !important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #FFF;
         width: 20px;
         height: 20px;
@@ -85,7 +85,7 @@ img {
 
     #millones {
         font-size: 66pt !important;
-        font-family: 'Meera Inimai', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: #FFF;
         left: 78%;
         top: 35%;
@@ -97,7 +97,7 @@ img {
 @media only screen and (max-width: 768px) {
     .dat {
         font-size: 61pt !important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #c5161c;
         width: 20px;
         height: 20px;
@@ -110,7 +110,7 @@ img {
 
     #millones {
         font-size: 122pt;
-        font-family: 'Meera Inimai', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: #FFF;
         left: 15%;
         top: 30%;
@@ -122,7 +122,7 @@ img {
 @media only screen and (max-width: 720px) {
     .dat {
         font-size: 58pt !important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #c5161c;
         width: 20px;
         height: 20px;
@@ -135,7 +135,7 @@ img {
 
     #millones {
         font-size: 122pt;
-        font-family: 'Meera Inimai', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: #FFF;
         left: 15%;
         top: 30%;
