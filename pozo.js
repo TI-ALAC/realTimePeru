@@ -9,8 +9,7 @@ var title = document.getElementById('title1');
 var Unidad = document.getElementById('pozoUnidad');
 
 const URL = window.location.href;
-console.log(URL.split("?province="))
-console.log(URL.split("?id="))
+console.log(URL.split("/?"))
 const idPanel = 48
 const province = "Chiclayo"
 
