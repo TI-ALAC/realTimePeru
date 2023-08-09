@@ -91,6 +91,15 @@ img {
         top: 35%;
         position: absolute;
     }
+
+    #datef {
+        font-size: 10pt !important;
+        font-family: 'Roboto';
+        color: #FFF;
+        left: 62%;
+        top: 19%;
+        position: absolute;
+    }
 }
 
 /* 768x384 */
@@ -114,6 +123,15 @@ img {
         color: #FFF;
         left: 81%;
         top: 34%;
+        position: absolute;
+    }
+
+    #datef {
+        font-size: 10pt !important;
+        font-family: 'Roboto';
+        color: #FFF;
+        left: 62%;
+        top: 19%;
         position: absolute;
     }
 }
