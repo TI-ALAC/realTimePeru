@@ -6,6 +6,7 @@ var content5 = document.getElementById('contenido5');
 var content6 = document.getElementById('contenido6');
 var content7 = document.getElementById('contenido7');
 var dat = document.getElementById('date');
+var datef = document.getElementById('datef');
 var millon = document.getElementById('millones');
 var title = document.getElementById('title1');
 var Unidad = document.getElementById('pozoUnidad');
@@ -14,8 +15,8 @@ const URL = window.location.href;
 const split = URL.split("/?");
 const idPanelSplit = split[1].split("id=")
 const provinceSplit = split[2].split("province=")
-const idPanel = idPanelSplit[1]
-const province = provinceSplit[1]
+const idPanel = 1
+const province = "Chiclayo"
 
 
 const fecha = new Date();
@@ -47,6 +48,17 @@ async function init() {
   const dateEs = fecha.toLocaleTimeString('es-ES');
   const palabras = dateEs.split(":");
   const palabraDia = palabras[0] + ":" + palabras[1];
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const dateEss = fecha.toLocaleDateString('es-ES', options);
+  const palabrass = dateEss.split(",");
+  const palabraDias = palabrass[0][0].toUpperCase() + palabrass[0].substr(1);
+  const palabrassplit = palabrass[1].split("de");
+  const trim = palabrassplit[1].trim()
+  const test = trim[0].toUpperCase() + trim.substring(1);
+  console.log(test)
+  const unir = palabraDias + "" + palabrassplit[0] + "de " + test + palabrassplit[2]; 
+  console.log(unir)
+  datef.innerHTML = unir;
   dat.innerHTML = palabraDia;
   title.innerHTML = result + '°';
 
