@@ -63,9 +63,9 @@ async function init() {
   title.innerHTML = result + '°';
 
   if (text_clima == 'lluvia ligera' || text_clima == 'lluvia moderada') {
+    content.style.display = "block";
+    content6.style.display = "block";
     setTimeout(() => {
-      content.style.display = "block";
-      content6.style.display = "block";
       content7.style.display = "none";
     }, 4500);
     setTimeout(() => {
@@ -74,20 +74,20 @@ async function init() {
       content7.style.display = "block";
     }, 7500);
   } else if (text_clima == 'cielo claro' || text_clima == 'algo de nubes' || text_clima == 'nubes dispersas') {
+    content2.style.display = "block";
+    content6.style.display = "block";
     setTimeout(() => {
-      content2.style.display = "block";
-      content6.style.display = "block";
       content7.style.display = "none";
     }, 4500);
     setTimeout(() => {
       content2.style.display = "none";
       content6.style.display = "none";
       content7.style.display = "block";
-    }, 7500);
+    }, 117500);
   } else if (text_clima == 'soleado con lluvia') {
+    content3.style.display = "block";
+    content6.style.display = "block";
     setTimeout(() => {
-      content3.style.display = "block";
-      content6.style.display = "block";
       content7.style.display = "none";
     }, 4500);
     setTimeout(() => {
@@ -96,20 +96,20 @@ async function init() {
       content7.style.display = "block";
     }, 7500);
   } else if (text_clima == 'niebla' || text_clima == 'muy nuboso' || text_clima == 'nubes' || text_clima == 'bruma') {
+    content4.style.display = "block";
+    content6.style.display = "block";
     setTimeout(() => {
-      content4.style.display = "block";
-      content6.style.display = "block";
       content7.style.display = "none";
     }, 4500);
     setTimeout(() => {
       content4.style.display = "none";
       content6.style.display = "none";
       content7.style.display = "block";
-    }, 7500);
+    }, 117500);
   } else if (text_clima == 'tormenta con lluvia ligera' || text_clima == 'tormenta') {
+    content5.style.display = "block";
+    content6.style.display = "block";
     setTimeout(() => {
-      content5.style.display = "block";
-      content6.style.display = "block";
       content7.style.display = "none";
     }, 4500);
     setTimeout(() => {
