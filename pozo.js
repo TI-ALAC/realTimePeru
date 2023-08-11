@@ -83,7 +83,7 @@ async function init() {
       content2.style.display = "none";
       content6.style.display = "none";
       content7.style.display = "block";
-    }, 117500);
+    }, 7500);
   } else if (text_clima == 'soleado con lluvia') {
     content3.style.display = "block";
     content6.style.display = "block";
@@ -105,7 +105,7 @@ async function init() {
       content4.style.display = "none";
       content6.style.display = "none";
       content7.style.display = "block";
-    }, 117500);
+    }, 7500);
   } else if (text_clima == 'tormenta con lluvia ligera' || text_clima == 'tormenta') {
     content5.style.display = "block";
     content6.style.display = "block";
